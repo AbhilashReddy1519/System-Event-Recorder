@@ -4,7 +4,7 @@ import sqlite3
 from modules.capture import DB_PATH, create_file, create_folder, delete_file, delete_folder
 
 class SecurityUI:
-    def __init__(self, root):
+    def _init_(self, root):
         self.root = root
         self.root.title("Security Event Recorder")
         self.root.geometry("800x600")
